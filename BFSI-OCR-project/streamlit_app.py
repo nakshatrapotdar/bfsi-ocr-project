@@ -162,11 +162,11 @@ import pandas as pd
 import plotly.express as px
 
 # Import functions from backend modules
-from semi_supervisedmodel.api_data import fetch_financial_data  # Semi-supervised model
-from supervised_model.invoices import process_invoice        # Supervised model
-from supervised_model.payslips import process_payslips          # Supervised model
-from supervised_model.profit_loss import process_profit_loss    # Supervised model
-from unsupervised_model.bart_classification import classify_data # Unsupervised model
+from semi_supervised.api_data import fetch_financial_data  # Semi-supervised model
+from supervised.invoices import process_invoice        # Supervised model
+from supervised.payslips import process_payslips          # Supervised model
+from supervised.profit_loss import process_profit_loss    # Supervised model
+from unsupervised.bart_classification import classify_data # Unsupervised model
 
 # Function to set background color using CSS
 def set_background():
